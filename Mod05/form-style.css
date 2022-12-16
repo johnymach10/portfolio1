@@ -1,0 +1,54 @@
+form > div, fieldset, fieldset > div {
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+fieldset {
+    padding-left: 0;
+    background-color: beige;
+    border: 1px black;
+}
+
+form {
+    width: 700px;
+}
+
+legend {
+    color: aqua;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea {
+    vertical-align: text-top;
+    width: 300px;
+    height: 150px;
+}
+
+input [type=text], input[type=email], select {
+
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+label.obrigatorio {
+    color: red;
+}
+
+.cadastro label {
+    width: 300px;
+    margin-left: 150px;
+    text-align: left;
+}
+
+div.cadastro {
+    padding-left: 150px;
+}
+
+h1 {
+    text-shadow: 0 0 5px cyan;
+}
